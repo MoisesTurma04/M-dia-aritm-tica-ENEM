@@ -1,0 +1,37 @@
+using System; 
+
+class NotaEnem{
+    public static void Main() {
+
+        float Nota1, Nota2, Nota3, Nota4, Nota5, Soma, Media;
+
+
+        Console.WriteLine("Digite a nota de Linguagens, Códigos e suas Tecnologias:");
+        Nota1 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a nota de Ciências Humanas e suas Tecnologias:");
+        Nota2 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a nota de Ciências da Natureza e suas Tecnologias:");
+        Nota3 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a nota Matemática e suas Tecnologias:");
+        Nota4 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a nota da Redação:");
+        Nota5 = float.Parse(Console.ReadLine());
+
+
+        Soma = Nota1 + Nota2 + Nota3 + Nota4 + Nota5;
+
+        Media = Soma / 5;
+
+        Console.WriteLine(Soma);
+
+        Console.WriteLine(Media);
+
+        
+    }
+
+}
+
